@@ -1,0 +1,31 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th {
+    background: black;
+    color: white;
+    padding: .4em;
+    text-align: inherit;
+}
+
+table th:last-child, table td:last-child {
+    direction: rtl;
+}
+
+table th:nth-child(2), table td:nth-child(2) {
+    text-align: center;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+table th, table td {
+    padding: 0.4em;
+}
+
+table tr:nth-child(even) td {
+    background-color: #eee;
+}
